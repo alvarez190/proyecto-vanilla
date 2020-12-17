@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style-login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <form action="../php/recogerDatos.php" method="POST">
+        <fieldset>
+            <legend>Bienvenido</legend>
+            <p id="warning">!El correo ingresado no tiene el formato correspondiente¡</p>
+            <label for="nameUser">Email:</label>
+            <input type="text" id="emailUser" name="user" placeholder="Ingresa tu usuario" required>
+
+            <input type="button" id="enviar" value="Ingresar">
+        </fieldset>
+    </form>
+</body>
+<script src="../js/script-validation.js"></script>
+
+</html>
