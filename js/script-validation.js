@@ -12,5 +12,4 @@ function validacion() {
 }
 
 elementuser.onfocus;
-
 document.getElementById("enviar").onclick = validacion;
